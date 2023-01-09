@@ -1,0 +1,42 @@
+name: movies
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  flutter_rating_bar: ^4.0.1
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+   - assets/images/
+  
+  fonts:
+    - family : Avenir-Black
+      fonts: 
+      - asset: assets/fonts/AvenirLTStd-Black.otf
+    - family: Avenir-Book
+      fonts:
+      - asset: assets/fonts/AvenirLTStd-Book.otf
+    - family: Avenir-Roman
+      fonts:
+      - asset: assets/fonts/AvenirLTStd-Roman.otf
+    - family: Avenir-Heavy
+      fonts:
+      - asset: assets/fonts/Avenir-Heavy.ttf
+    - family: Avenir-Medium
+      fonts:
+      - asset: assets/fonts/Avenir-Medium.ttf
+  
+
