@@ -4,7 +4,8 @@ A new Flutter project for challenge internship in BuildWithAngga.
 
 ## Getting Started
 
-Result Project :
+Result Project 
+
 HomePage :
 
 ![hasilpage](screenshot/hasil.jpg)
